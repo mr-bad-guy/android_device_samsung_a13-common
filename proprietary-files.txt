@@ -23,6 +23,34 @@ vendor/firmware/dax_param.bin
 # Bluetooth Firmware
 vendor/etc/wifi/mx140_bt.hcf
 
+
+# Camera
+vendor/lib/hw/camera.exynos850.so
+vendor/lib/camera.device@1.0-impl.so
+vendor/lib/camera.device@3.2-impl.so
+vendor/lib/camera.device@3.3-impl.so
+vendor/lib/camera.device@3.4-impl.so
+vendor/lib/camera.device@3.5-impl.so
+vendor/lib/libSEF.quram.so
+vendor/lib/libacryl.so
+vendor/lib/libcsc.so
+vendor/lib/libexynoscamera3.so
+vendor/lib/libexynoscamera_plugin.so
+vendor/lib/libexynosgraphicbuffer.so
+vendor/lib/libexynosscaler.so
+vendor/lib/libexynosutils.so
+vendor/lib/libexynosv4l2.so
+vendor/lib/libgiantmscl.so
+vendor/lib/libhwjpeg.so
+vendor/lib/libion_exynos.so
+vendor/lib/libremosaic_wrapper.so
+vendor/lib/libsensorlistener.so
+vendor/lib/libsensorndkbridge.so
+vendor/lib/libuniapi.so
+vendor/lib/libuniplugin.so
+vendor/lib/vendor.samsung.hardware.thermal@1.0.so
+
+
 # Camera
 vendor/lib/hw/camera.exynos850.so
 vendor/lib/libexynoscamera_plugin.so
@@ -65,6 +93,16 @@ vendor/lib64/libegis_fp_normal_sensor_test.so
 vendor/lib64/libgf_in_system_lib.so
 vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
+
+
+# Fingerprint
+vendor/lib/hw/fingerprint.default.so
+vendor/lib/libbauthserver.so
+vendor/lib/libbauthtzcommon.so
+vendor/lib/libegis_fp_normal_sensor_test.so
+vendor/lib/libgf_in_system_lib.so
+vendor/lib/libqfp_sensortest.so
+vendor/lib/libsynaFpSensorTestNwd.so
 
 # Firmware
 vendor/firmware/MCD_NACHO_slog.bin
@@ -114,9 +152,9 @@ vendor/lib/hw/vulkan.mali.so
 vendor/lib64/egl/libGLES_mali.so;SYMLINK=vendor/lib64/libOpenCL.so;SYMLINK=vendor/lib64/libOpenCL.so.1;SYMLINK=vendor/lib64/libOpenCL.so.1.1;SYMLINK=vendor/lib64/hw/vulkan.universal3830.so
 vendor/lib64/hw/vulkan.mali.so
 
-# Keymaster
+# Keymint
 vendor/lib64/libkeymaster_helper.so
-vendor/lib64/libskeymaster4device.so
+vendor/lib/libskeymint10device.so.so
 
 # OMX Firmware
 vendor/firmware/is_lib.bin
