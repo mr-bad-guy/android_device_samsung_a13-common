@@ -150,12 +150,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_ENABLE_UFFD_GC := true
 
-# Keymint
+# Keymaster
 PRODUCT_PACKAGES += \
-    android.hardware.security.keymint-service \
-    vendor.samsung.hardware.security.drk-service 
+    android.hardware.keymaster@4.0-service.samsung
 
-$(call soong_config_set,samsungVars,target_keymint_library,//vendor/samsung/a13-common:libskeymint10device)
+$(call soong_config_set,samsungVars,target_keymaster4_library,//vendor/samsung/a13-common:libskeymaster4device)
 
 # Lineage Health
 PRODUCT_PACKAGES += \
