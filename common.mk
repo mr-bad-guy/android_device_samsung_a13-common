@@ -1,4 +1,4 @@
-#
+#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
 # Copyright (C) 2020-2024 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
